@@ -1,0 +1,8 @@
+
+body{margin:0;font-family:Arial,sans-serif;background:#f7fff8;color:#222}
+.hero{background:#1d7f47;color:#fff;text-align:center;padding:70px 20px}
+.btn{display:inline-block;background:#fff;color:#1d7f47;padding:12px 20px;border-radius:30px;text-decoration:none;margin:8px;font-weight:bold}
+section{padding:30px;max-width:1000px;margin:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:15px}
+.card{background:#fff;padding:20px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1);text-align:center}
+footer{text-align:center;padding:20px;background:#1d7f47;color:#fff}
