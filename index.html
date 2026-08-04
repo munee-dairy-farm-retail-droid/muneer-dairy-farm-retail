@@ -1,52 +1,1972 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Muneer Dairy Farm Retail</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Muneer Dairy Farm Retail | Fresh, Pure & Trusted Dairy in Sangareddy</title>
+    <meta name="title" content="Muneer Dairy Farm Retail | Fresh, Pure & Trusted Dairy in Sangareddy">
+    <meta name="description" content="Buy 100% fresh Buffalo Milk, Cow Milk, Pure Ghee, Malai Curd, Paneer, Khowa, Ice Cream, and Dry Fruits at Muneer Dairy Farm Retail, Sangareddy, Telangana.">
+    <meta name="keywords" content="Muneer Dairy Farm, Dairy Shop Sangareddy, Fresh Buffalo Milk Sangareddy, Pure Ghee Telangana, Malai Curd, Paneer, Bait Ul Iqbal Dairy">
+    <meta name="author" content="Muneer Dairy Farm Retail">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://muneerdairy.com/">
+    <meta property="og:title" content="Muneer Dairy Farm Retail | Fresh • Pure • Trusted">
+    <meta property="og:description" content="100% Fresh Buffalo Milk, Pure Ghee, Cream & Dairy delicacies in Sangareddy. Visit us today!">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Muneer Dairy Farm Retail">
+    <meta property="twitter:description" content="100% Fresh Buffalo Milk, Pure Ghee, Cream & Dairy delicacies in Sangareddy.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%230c633d'/><path d='M30,65 Q50,85 70,65 Q50,75 30,65 Z' fill='%23d4af37'/></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,800;1,600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- JSON-LD Structured Data for Local Business SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "DairyStore",
+      "name": "Muneer Dairy Farm Retail",
+      "image": "https://images.unsplash.com/photo-1527153857715-3908f2bae5e8",
+      "@id": "https://muneerdairy.com",
+      "url": "https://muneerdairy.com",
+      "telephone": "+919642929942",
+      "email": "mohadamaan9696@gmail.com",
+      "priceRange": "₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5-8-138/12/7/A, Royals Rd, Royal Colony, Shanti Nagar, Located in Bait Ul Iqbal",
+        "addressLocality": "Sangareddy",
+        "addressRegion": "Telangana",
+        "postalCode": "502001",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 17.6192,
+        "longitude": 78.0844
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "06:00",
+          "closes": "13:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "16:00",
+          "closes": "23:30"
+        }
+      ],
+      "paymentAccepted": "Cash, UPI",
+      "currenciesAccepted": "INR"
+    }
+    </script>
+
+    <style>
+        /* ==========================================================================
+           1. CSS VARIABLES & THEME SETUP
+           ========================================================================== */
+        :root {
+            --primary-green: #0c633d;
+            --primary-dark-green: #064026;
+            --accent-gold: #d4af37;
+            --accent-gold-hover: #b89428;
+            --cream-bg: #fcfbf7;
+            --card-bg: #ffffff;
+            --text-dark: #1a2421;
+            --text-muted: #5a6e65;
+            --border-color: #e2ebd8;
+            --glass-bg: rgba(255, 255, 255, 0.85);
+            --glass-border: rgba(212, 175, 55, 0.25);
+            --shadow-sm: 0 4px 15px rgba(12, 99, 61, 0.06);
+            --shadow-md: 0 10px 30px rgba(12, 99, 61, 0.12);
+            --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.15);
+            --transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+            --radius-lg: 20px;
+            --radius-md: 12px;
+        }
+
+        [data-theme="dark"] {
+            --primary-green: #118151;
+            --primary-dark-green: #082e1e;
+            --accent-gold: #f3ca40;
+            --accent-gold-hover: #ffd859;
+            --cream-bg: #0a1410;
+            --card-bg: #12211b;
+            --text-dark: #f0f7f3;
+            --text-muted: #a3b8ad;
+            --border-color: #1e362c;
+            --glass-bg: rgba(18, 33, 27, 0.88);
+            --glass-border: rgba(243, 202, 64, 0.2);
+            --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.4);
+            --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.6);
+            --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.8);
+        }
+
+        /* ==========================================================================
+           2. BASE & TYPOGRAPHY
+           ========================================================================== */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--cream-bg);
+            color: var(--text-dark);
+            transition: background-color 0.4s ease, color 0.4s ease;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Preloader */
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: var(--cream-bg);
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: opacity 0.6s ease, visibility 0.6s ease;
+        }
+
+        .loader-spinner {
+            width: 70px;
+            height: 70px;
+            border: 5px solid var(--border-color);
+            border-top: 5px solid var(--accent-gold);
+            border-bottom: 5px solid var(--primary-green);
+            border-radius: 50%;
+            animation: spin 1.2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Glassmorphism utility */
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* Section Headings */
+        .section-tag {
+            display: inline-block;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: var(--accent-gold);
+            background: rgba(212, 175, 55, 0.12);
+            padding: 6px 18px;
+            border-radius: 50px;
+            margin-bottom: 12px;
+            border: 1px solid var(--glass-border);
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 15px;
+        }
+
+        .section-subtitle {
+            color: var(--text-muted);
+            max-width: 650px;
+            margin: 0 auto;
+            font-size: 1.05rem;
+        }
+
+        /* Custom Button Component */
+        .btn-gold {
+            background: linear-gradient(135deg, var(--accent-gold) 0%, #b8860b 100%);
+            color: #ffffff !important;
+            font-weight: 600;
+            padding: 12px 28px;
+            border-radius: 50px;
+            border: none;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.35);
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-gold:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(212, 175, 55, 0.5);
+            background: linear-gradient(135deg, #e6c244 0%, #d4af37 100%);
+        }
+
+        .btn-emerald {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-dark-green) 100%);
+            color: #ffffff !important;
+            font-weight: 600;
+            padding: 12px 28px;
+            border-radius: 50px;
+            border: none;
+            box-shadow: 0 4px 15px rgba(12, 99, 61, 0.3);
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-emerald:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(12, 99, 61, 0.5);
+        }
+
+        .btn-outline-gold {
+            background: transparent;
+            color: var(--accent-gold) !important;
+            font-weight: 600;
+            padding: 11px 26px;
+            border-radius: 50px;
+            border: 2px solid var(--accent-gold);
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-outline-gold:hover {
+            background: var(--accent-gold);
+            color: #000000 !important;
+            transform: translateY(-3px);
+        }
+
+        /* ==========================================================================
+           3. NAVBAR
+           ========================================================================== */
+        .navbar-custom {
+            padding: 12px 0;
+            transition: var(--transition);
+            z-index: 1000;
+        }
+
+        .navbar-custom.scrolled {
+            background: var(--glass-bg);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            box-shadow: var(--shadow-sm);
+            border-bottom: 1px solid var(--glass-border);
+            padding: 8px 0;
+        }
+
+        .nav-link {
+            color: var(--text-dark) !important;
+            font-weight: 500;
+            margin: 0 8px;
+            padding: 8px 16px !important;
+            border-radius: 30px;
+            transition: var(--transition);
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: var(--accent-gold) !important;
+            background: rgba(212, 175, 55, 0.1);
+        }
+
+        .theme-toggle-btn {
+            background: rgba(212, 175, 55, 0.15);
+            border: 1px solid var(--accent-gold);
+            color: var(--accent-gold);
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .theme-toggle-btn:hover {
+            transform: rotate(20deg) scale(1.08);
+            background: var(--accent-gold);
+            color: #000;
+        }
+
+        /* Logo Styling */
+        .brand-logo-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .brand-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.1;
+        }
+
+        .brand-title {
+            font-family: 'Playfair Display', serif;
+            font-weight: 800;
+            font-size: 1.35rem;
+            color: var(--text-dark);
+            letter-spacing: -0.5px;
+        }
+
+        .brand-subtitle {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent-gold);
+            font-weight: 700;
+        }
+
+        /* Notice Banner */
+        .delivery-notice-bar {
+            background: linear-gradient(90deg, #d4af37, #b8860b, #d4af37);
+            color: #000000;
+            font-size: 0.88rem;
+            font-weight: 700;
+            padding: 8px 0;
+            text-align: center;
+            letter-spacing: 0.5px;
+        }
+
+        /* ==========================================================================
+           4. HERO SECTION
+           ========================================================================== */
+        .hero-section {
+            position: relative;
+            min-height: 92vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, rgba(6, 64, 38, 0.92) 0%, rgba(12, 99, 61, 0.85) 100%),
+                        url('https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+            color: #ffffff;
+            overflow: hidden;
+            padding-top: 80px;
+        }
+
+        .hero-milk-splash-bg {
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            z-index: 2;
+        }
+
+        .hero-milk-splash-bg svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 80px;
+            fill: var(--cream-bg);
+            transition: fill 0.4s ease;
+        }
+
+        .hero-badge {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(212, 175, 55, 0.5);
+            padding: 8px 20px;
+            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--accent-gold);
+            font-weight: 600;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.15;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .hero-title span {
+            color: var(--accent-gold);
+            font-style: italic;
+        }
+
+        .hero-description {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 35px;
+            max-width: 580px;
+            line-height: 1.6;
+        }
+
+        .hero-cta-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .hero-visual-card {
+            position: relative;
+            z-index: 3;
+            border-radius: 30px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+        }
+
+        .hero-img-wrapper {
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .hero-img-wrapper img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transform: scale(1.02);
+            transition: var(--transition);
+        }
+
+        .hero-img-wrapper:hover img {
+            transform: scale(1.08);
+        }
+
+        .floating-badge-trust {
+            position: absolute;
+            bottom: 30px;
+            left: -20px;
+            background: #ffffff;
+            color: #064026;
+            padding: 15px 22px;
+            border-radius: 18px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            animation: floatAnim 4s ease-in-out infinite;
+            z-index: 4;
+        }
+
+        @keyframes floatAnim {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* ==========================================================================
+           5. ABOUT & WHY CHOOSE US
+           ========================================================================== */
+        .about-section {
+            padding: 100px 0 70px;
+        }
+
+        .about-feature-box {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            transition: var(--transition);
+            height: 100%;
+        }
+
+        .about-feature-box:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-gold);
+            box-shadow: var(--shadow-md);
+        }
+
+        .feature-icon-wrap {
+            width: 60px;
+            height: 60px;
+            background: rgba(12, 99, 61, 0.1);
+            color: var(--primary-green);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            margin-bottom: 18px;
+            transition: var(--transition);
+        }
+
+        .about-feature-box:hover .feature-icon-wrap {
+            background: var(--accent-gold);
+            color: #000000;
+        }
+
+        .notice-pill {
+            background: rgba(220, 53, 69, 0.1);
+            color: #dc3545;
+            border: 1px solid rgba(220, 53, 69, 0.3);
+            border-radius: 30px;
+            padding: 6px 16px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* ==========================================================================
+           6. PRODUCTS SECTION
+           ========================================================================== */
+        .products-section {
+            padding: 80px 0;
+            background-color: rgba(12, 99, 61, 0.03);
+        }
+
+        .filter-btn-group {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 40px;
+        }
+
+        .filter-btn {
+            background: var(--card-bg);
+            color: var(--text-dark);
+            border: 1px solid var(--border-color);
+            padding: 10px 24px;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .filter-btn.active, .filter-btn:hover {
+            background: var(--primary-green);
+            color: #ffffff;
+            border-color: var(--primary-green);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .product-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-color);
+            overflow: hidden;
+            transition: var(--transition);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--accent-gold);
+        }
+
+        .product-img-box {
+            position: relative;
+            height: 220px;
+            overflow: hidden;
+            background: #f0f0f0;
+        }
+
+        .product-img-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .product-card:hover .product-img-box img {
+            transform: scale(1.1);
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: var(--accent-gold);
+            color: #000000;
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 4px 12px;
+            border-radius: 30px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .product-body {
+            padding: 22px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .product-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--text-dark);
+        }
+
+        .product-desc {
+            color: var(--text-muted);
+            font-size: 0.92rem;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .product-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            pt-3;
+            border-top: 1px dashed var(--border-color);
+        }
+
+        /* ==========================================================================
+           7. GALLERY SECTION
+           ========================================================================== */
+        .gallery-section {
+            padding: 90px 0;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            margin-bottom: 24px;
+            cursor: pointer;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+            display: block;
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(6, 64, 38, 0.85) 0%, transparent 100%);
+            display: flex;
+            align-items: flex-end;
+            padding: 20px;
+            opacity: 0;
+            transition: opacity 0.35s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+
+        .gallery-caption {
+            color: #ffffff;
+        }
+
+        .gallery-caption h5 {
+            font-size: 1.1rem;
+            margin-bottom: 2px;
+            font-weight: 700;
+        }
+
+        .gallery-caption p {
+            font-size: 0.82rem;
+            color: var(--accent-gold);
+            margin: 0;
+        }
+
+        /* Modal Lightbox styling */
+        #lightboxModal .modal-content {
+            background: transparent;
+            border: none;
+        }
+
+        #lightboxModal img {
+            border-radius: var(--radius-md);
+            max-height: 85vh;
+            object-fit: contain;
+            width: 100%;
+        }
+
+        /* ==========================================================================
+           8. REVIEWS SECTION
+           ========================================================================== */
+        .reviews-section {
+            padding: 90px 0;
+            background: linear-gradient(180deg, rgba(12, 99, 61, 0.05) 0%, rgba(212, 175, 55, 0.05) 100%);
+        }
+
+        .review-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-color);
+            padding: 30px;
+            height: 100%;
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .review-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--accent-gold);
+        }
+
+        .google-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.85rem;
+            color: #4285F4;
+            font-weight: 700;
+            background: rgba(66, 133, 244, 0.1);
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-bottom: 15px;
+        }
+
+        .stars-row {
+            color: #ffc107;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .review-text {
+            color: var(--text-dark);
+            font-style: italic;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            font-size: 0.98rem;
+        }
+
+        .reviewer-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .reviewer-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--primary-green);
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        /* ==========================================================================
+           9. CONTACT & HOURS SECTION
+           ========================================================================== */
+        .contact-section {
+            padding: 90px 0;
+        }
+
+        .contact-info-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-color);
+            padding: 35px;
+            height: 100%;
+        }
+
+        .info-item {
+            display: flex;
+            gap: 18px;
+            margin-bottom: 25px;
+        }
+
+        .info-item-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(212, 175, 55, 0.15);
+            color: var(--accent-gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            flex-shrink: 0;
+        }
+
+        .hours-badge {
+            background: rgba(12, 99, 61, 0.08);
+            border-left: 4px solid var(--primary-green);
+            padding: 15px 20px;
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+            margin-top: 10px;
+        }
+
+        .map-container {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-color);
+            height: 100%;
+            min-height: 380px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 380px;
+            border: 0;
+        }
+
+        .form-control-custom {
+            background: var(--cream-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-dark);
+            border-radius: 12px;
+            padding: 12px 18px;
+        }
+
+        .form-control-custom:focus {
+            background: var(--cream-bg);
+            color: var(--text-dark);
+            border-color: var(--accent-gold);
+            box-shadow: 0 0 0 0.25rem rgba(212, 175, 55, 0.25);
+        }
+
+        /* ==========================================================================
+           10. FOOTER & FLOATING BUTTONS
+           ========================================================================== */
+        .footer-custom {
+            background: var(--primary-dark-green);
+            color: #ffffff;
+            padding: 70px 0 30px;
+            position: relative;
+        }
+
+        .footer-link {
+            color: rgba(255, 255, 255, 0.7);
+            transition: var(--transition);
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .footer-link:hover {
+            color: var(--accent-gold);
+            transform: translateX(5px);
+        }
+
+        .social-icon-btn {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+            margin-right: 8px;
+        }
+
+        .social-icon-btn:hover {
+            background: var(--accent-gold);
+            color: #000000;
+            transform: translateY(-3px);
+        }
+
+        /* Floating Action Buttons */
+        .floating-actions {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 999;
+        }
+
+        .float-btn {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 1.5rem;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .float-btn:hover {
+            transform: scale(1.1);
+            color: #ffffff;
+        }
+
+        .float-whatsapp {
+            background-color: #25d366;
+        }
+
+        .float-phone {
+            background-color: var(--primary-green);
+        }
+
+        .float-top {
+            background-color: var(--accent-gold);
+            color: #000000;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .float-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Responsive Breakpoints Adjustments */
+        @media (max-width: 991px) {
+            .hero-title { font-size: 2.6rem; }
+            .section-title { font-size: 2rem; }
+            .floating-badge-trust { display: none; }
+            .hero-section { min-height: auto; padding: 120px 0 80px; }
+        }
+        @media (max-width: 576px) {
+            .hero-title { font-size: 2.1rem; }
+            .hero-cta-group .btn { width: 100%; justify-content: center; }
+            .floating-actions { bottom: 15px; right: 15px; }
+            .float-btn { width: 48px; height: 48px; font-size: 1.2rem; }
+        }
+    </style>
 </head>
 <body>
-<header class="hero">
-  <h1>Muneer Dairy Farm Retail</h1>
-  <p>Fresh • Pure • Trusted Dairy Products</p>
-  <a class="btn" href="https://wa.me/919642929942">WhatsApp</a>
-  <a class="btn" href="tel:+919642929942">Call Now</a>
-</header>
 
-<section>
-<h2>Our Products</h2>
-<div class="grid">
-<div class="card">Fresh Milk</div>
-<div class="card">Curd</div>
-<div class="card">Paneer</div>
-<div class="card">Ghee</div>
-<div class="card">Butter</div>
-<div class="card">Khowa</div>
-<div class="card">Ice Cream</div>
-<div class="card">Bread</div>
-<div class="card">Dry Fruits</div>
-</div>
-</section>
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="loader-spinner"></div>
+        <p class="mt-3 font-serif fw-bold" style="color: var(--primary-green); letter-spacing: 1px;">MUNEER DAIRY FARM</p>
+    </div>
 
-<section>
-<h2>Visit Us</h2>
-<p><b>Address:</b><br>
-5-8-138/12/7/A, Royals Rd, Royal Colony, Shanti Nagar,<br>
-Sangareddy, Telangana 502001<br>
-Located in Bait Ul Iqbal</p>
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="delivery-notice-bar">
+        <div class="container d-flex justify-content-center align-items-center gap-2">
+            <i class="fa-solid fa-store"></i>
+            <span><strong>Notice:</strong> Store Pickup Only — Home Delivery Currently Not Available. Visit us at Royals Rd, Sangareddy!</span>
+        </div>
+    </div>
 
-<p><b>Business Hours</b><br>
-6:00 AM – 1:00 PM<br>
-4:00 PM – 11:30 PM</p>
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top" id="mainNavbar">
+        <div class="container">
+            <!-- Brand Logo -->
+            <a class="navbar-brand brand-logo-container" href="#home">
+                <!-- Premium Circular Logo SVG (Buffalo Head + Milk Splash + Gold Badge) -->
+                <svg width="52" height="52" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="100" cy="100" r="95" fill="#0c633d" stroke="#d4af37" stroke-width="6"/>
+                    <circle cx="100" cy="100" r="82" fill="none" stroke="#d4af37" stroke-dasharray="4,4" stroke-width="2"/>
+                    <!-- Buffalo Horns & Head Icon Vector -->
+                    <path d="M 60,75 C 40,40 20,60 45,75 C 65,85 75,100 100,100 C 125,100 135,85 155,75 C 180,60 160,40 140,75 C 130,82 115,88 100,88 C 85,88 70,82 60,75 Z" fill="#d4af37"/>
+                    <path d="M 75,90 C 70,120 85,145 100,148 C 115,145 130,120 125,90 C 110,102 90,102 75,90 Z" fill="#ffffff"/>
+                    <!-- Ears -->
+                    <ellipse cx="58" cy="92" rx="14" ry="6" fill="#d4af37" transform="rotate(-20 58 92)"/>
+                    <ellipse cx="142" cy="92" rx="14" ry="6" fill="#d4af37" transform="rotate(20 142 92)"/>
+                    <!-- Milk Splash Bottom Wave -->
+                    <path d="M 25,135 Q 50,115 80,135 T 140,135 T 175,135 Q 185,150 170,165 C 140,190 60,190 30,165 Z" fill="#ffffff" opacity="0.95"/>
+                    <path d="M 35,145 Q 65,130 100,145 T 165,145 C 150,180 50,180 35,145 Z" fill="#fcfbf7"/>
+                    <!-- Small Stars Accent -->
+                    <polygon points="100,22 103,30 111,30 104,35 107,43 100,38 93,43 96,35 89,30 97,30" fill="#d4af37"/>
+                </svg>
+                <div class="brand-text">
+                    <span class="brand-title">MUNEER DAIRY</span>
+                    <span class="brand-subtitle">FARM RETAIL</span>
+                </div>
+            </a>
 
-<p>Email: <a href="mailto:mohadamaan9696@gmail.com">mohadamaan9696@gmail.com</a></p>
+            <!-- Right Controls: Dark Mode Toggle & Mobile Hamburger -->
+            <div class="d-flex align-items-center gap-2 order-lg-3">
+                <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+                    <i class="fa-solid fa-moon" id="themeIcon"></i>
+                </button>
+                
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered text-gold fs-3" style="color: var(--accent-gold);"></i>
+                </button>
+            </div>
 
-<a class="btn" target="_blank" href="https://maps.app.goo.gl/k3iH3hL9eBDQLdLf6">Open Google Maps</a>
-</section>
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse justify-content-center order-lg-2" id="navbarContent">
+                <ul class="navbar-nav my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Our Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<footer>© 2026 Muneer Dairy Farm Retail</footer>
-<script src="script.js"></script>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+        <div class="container position-relative" style="z-index: 3;">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="hero-badge">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <span>100% Pure & Farm Fresh Daily</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Pure Buffalo & Cow Milk <span>Delivered Fresh</span> Every Day.
+                    </h1>
+                    <p class="hero-description">
+                        Experience the authentic richness of traditional dairy products. From thick Malai Curd to aromatic Pure Ghee, Muneer Dairy Farm Retail is Sangareddy’s most trusted household name.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="tel:+919642929942" class="btn btn-gold">
+                            <i class="fa-solid fa-phone"></i> Call Now
+                        </a>
+                        <a href="https://wa.me/919642929942?text=Hi%20Muneer%20Dairy%20Farm,%20I%20want%20to%20inquire%20about%20your%20dairy%20products." target="_blank" class="btn btn-emerald">
+                            <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+                        </a>
+                        <a href="https://maps.google.com/?q=5-8-138/12/7/A,+Royals+Rd,+Royal+Colony,+Shanti+Nagar,+Sangareddy,+Telangana+502001" target="_blank" class="btn btn-outline-gold">
+                            <i class="fa-solid fa-location-dot"></i> Get Directions
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="hero-visual-card">
+                        <div class="hero-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?auto=format&fit=crop&w=800&q=80" alt="Fresh Buffalo Milk Glass" loading="lazy">
+                        </div>
+                        <div class="floating-badge-trust">
+                            <div class="badge-icon-bg" style="background: rgba(12,99,61,0.1); padding: 10px; border-radius: 12px; color: var(--primary-green);">
+                                <i class="fa-solid fa-award fs-3"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">100% Quality Assured</h6>
+                                <small class="text-muted">Unadulterated & Hygienic</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Milk Wave SVG Divider -->
+        <div class="hero-milk-splash-bg">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0 C150,90 350,-40 500,60 C650,160 900,10 1200,40 L1200,120 L0,120 Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ABOUT & WHY CHOOSE US SECTION -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-tag">About Our Farm & Retail</span>
+                <h2 class="section-title">Rooted in Purity, Crafted with Care</h2>
+                <p class="section-subtitle">Located in Bait Ul Iqbal, Sangareddy, Muneer Dairy Farm Retail brings you unadulterated, wholesome milk products directly processed with high hygienic standards.</p>
+            </div>
+
+            <!-- Stats/Highlights Grid -->
+            <div class="row g-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-3 col-6">
+                    <div class="glass-card text-center p-4">
+                        <i class="fa-solid fa-cow fs-1 text-gold mb-2" style="color: var(--accent-gold);"></i>
+                        <h3 class="fw-bold mb-1">100%</h3>
+                        <p class="text-muted small mb-0">Pure Buffalo & Cow Milk</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="glass-card text-center p-4">
+                        <i class="fa-solid fa-pump-soap fs-1 text-gold mb-2" style="color: var(--accent-gold);"></i>
+                        <h3 class="fw-bold mb-1">Hygienic</h3>
+                        <p class="text-muted small mb-0">Filtered & Processed Daily</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="glass-card text-center p-4">
+                        <i class="fa-solid fa-qrcode fs-1 text-gold mb-2" style="color: var(--accent-gold);"></i>
+                        <h3 class="fw-bold mb-1">UPI & Cash</h3>
+                        <p class="text-muted small mb-0">Easy Digital Payments</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="glass-card text-center p-4">
+                        <i class="fa-solid fa-heart-pulse fs-1 text-gold mb-2" style="color: var(--accent-gold);"></i>
+                        <h3 class="fw-bold mb-1">Trusted</h3>
+                        <p class="text-muted small mb-0">By 1000+ Local Families</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Features Grid -->
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="about-feature-box">
+                        <div class="feature-icon-wrap">
+                            <i class="fa-solid fa-bottle-droplet"></i>
+                        </div>
+                        <h4 class="fw-bold mb-2">100% Fresh Daily</h4>
+                        <p class="text-muted fs-6">Sourced every morning and evening. We guarantee absolute freshness with zero added preservatives or artificial thickeners.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="about-feature-box">
+                        <div class="feature-icon-wrap">
+                            <i class="fa-solid fa-shield-virus"></i>
+                        </div>
+                        <h4 class="fw-bold mb-2">Hygienically Processed</h4>
+                        <p class="text-muted fs-6">Strict quality control protocols. All containers, chilling equipment, and packaging units are disinfected continuously.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="about-feature-box">
+                        <div class="feature-icon-wrap">
+                            <i class="fa-solid fa-tag"></i>
+                        </div>
+                        <h4 class="fw-bold mb-2">Affordable Pricing</h4>
+                        <p class="text-muted fs-6">Direct farm pricing ensures you get maximum richness, thick cream fat content, and nutrition at fair community rates.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="about-feature-box">
+                        <div class="feature-icon-wrap">
+                            <i class="fa-solid fa-[#008CFF] fa-wallet"></i>
+                        </div>
+                        <h4 class="fw-bold mb-2">UPI & Cash Accepted</h4>
+                        <p class="text-muted fs-6">Seamless payment processing. Scan PhonePe, Google Pay, Paytm or pay cash comfortably at our retail outlet counter.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="about-feature-box">
+                        <div class="feature-icon-wrap">
+                            <i class="fa-solid fa-house-chimney-crack"></i>
+                        </div>
+                        <h4 class="fw-bold mb-2">Trusted Local Business</h4>
+                        <p class="text-muted fs-6">Deeply committed to servicing Shanti Nagar, Royal Colony, and surrounding Sangareddy neighborhoods with goodwill.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="about-feature-box border-warning" style="background: rgba(212, 175, 55, 0.05);">
+                        <div class="feature-icon-wrap" style="background: rgba(220, 53, 69, 0.1); color: #dc3545;">
+                            <i class="fa-solid fa-truck-ramp-box"></i>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h4 class="fw-bold mb-0">Home Delivery</h4>
+                            <span class="notice-pill"><i class="fa-solid fa-circle-exclamation"></i> Not Available</span>
+                        </div>
+                        <p class="text-muted fs-6">Currently, we serve customers directly at our store in Bait Ul Iqbal. Visit us morning or evening for fresh stock!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="text-center mb-4" data-aos="fade-up">
+                <span class="section-tag">Fresh & Delicious</span>
+                <h2 class="section-title">Our Premium Product Range</h2>
+                <p class="section-subtitle">Explore our wide selection of farm-fresh dairy items, traditional ghee, paneer, and delightful snacks.</p>
+            </div>
+
+            <!-- Filter Categories -->
+            <div class="filter-btn-group" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="milk">Milk & Curd</button>
+                <button class="filter-btn" data-filter="ghee">Ghee & Paneer</button>
+                <button class="filter-btn" data-filter="sweets">Sweets & Cream</button>
+                <button class="filter-btn" data-filter="extras">Bakery & Extras</button>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="row g-4" id="productsContainer">
+                
+                <!-- Product 1 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="milk" data-aos="fade-up">
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <span class="product-badge">Bestseller</span>
+                            <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=600&q=80" alt="Fresh Buffalo Milk" loading="lazy">
+                        </div>
+                        <div class="product-body">
+                            <h3 class="product-title">Fresh Buffalo Milk</h3>
+                            <p class="product-desc">Rich, high-fat creamy buffalo milk ideal for daily consumption, tea, coffee, and making thick home curd.</p>
+                            <div class="product-footer pt-3">
+                                <span class="fw-bold text-success"><i class="fa-solid fa-circle-check"></i> Farm Fresh</span>
+                                <a href="https://wa.me/919642929942?text=Hi%20Muneer%20Dairy,%20I%20want%20to%20buy%20Fresh%20Buffalo%20Milk" target="_blank" class="btn btn-sm btn-gold">Inquire Price</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="milk" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <span class="product-badge">100% Pure</span>
+                            <img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=600&q=80" alt="Cow Milk" loading="lazy">
+                        </div>
+                        <div class="product-body">
+                            <h3 class="product-title">Pure Cow Milk</h3>
+                            <p class="product-desc">Light, easily digestible, and wholesome cow milk full of naturally occurring nutrients and vitamins.</p>
+                            <div class="product-footer pt-3">
+                                <span class="fw-bold text-success"><i class="fa-solid fa-circle-check"></i> Daily Supply</span>
+                                <a href="https://wa.me/919642929942?text=Hi%20Muneer%20Dairy,%20I%20want%20to%20buy%20Pure%20Cow%20Milk" target="_blank" class="btn btn-sm btn-gold">Inquire Price</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="milk" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <span class="product-badge">Traditional</span>
+                            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80" alt="Curd" loading="lazy">
+                        </div>
+                        <div class="product-body">
+                            <h3 class="product-title">Fresh Curd (Dahi)</h3>
+                            <p class="product-desc">Thick, naturally set curd with delicious mild acidity, perfect for cooling meals and biryani side dishes.</p>
+                            <div class="product-footer pt-3">
+                                <span class="fw-bold text-success"><i class="fa-solid fa-circle-check"></i> Fresh Batch</span>
+                                <a href="https://wa.me/919642929942?text=Hi%20Muneer%20Dairy,%20I%20want%20to%20buy%20Fresh%20Curd" target="_blank" class="btn btn-sm btn-gold">Inquire Price</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="milk" data-aos="fade-up">
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <span class="product-badge">Rich & Thick</span>
+                            <img src="https://images.unsplash.com/photo-1571212515416-fef01fc43637?auto=format&fit=crop&w=600&q=80" alt="Malai Curd" loading="lazy">
+                        </div>
+                        <div class="product-body">
+                            <h3 class="product-title">Special Malai Curd</h3>
+                            <p class="product-desc">Topped with a thick layer of golden cream malai. A rich festive delight made from pure high-fat milk.</p>
+                            <div class="product-footer pt-3">
+                                <span class="fw-bold text-success"><i class="fa-solid fa-circle-check"></i> Premium</span>
+                                <a href="https://wa.me/919642929942?text=Hi%20Muneer%20Dairy,%20I%20want%20to%20buy%20Special%20Malai%20Curd" target="_blank" class="btn btn-sm btn-gold">Inquire Price</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="ghee" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <span class="product-badge">Soft & Fresh</span>
+                            <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=600&q=80" alt="Fresh Paneer" loading="lazy">
+                        </div>
+                        <div class="product-body">
+                            <h3 class="product-title">Fresh Cottage Paneer</h3>
+                            <p class="product-desc">Ultra-soft, hygienic paneer cubes or blocks. Ideal for cooking delicious curries, tikka, and grilling.</p>
+                            <div class="product-footer pt-3">
+                                <span class="fw-bold text-success"><i class="fa-solid fa-circle-check"></i> High Protein</span>
+                                <a href="https://wa.me/919642929942?text=Hi%20Muneer%20Dairy,%20I%20want%20to%20buy%20Fresh%20Paneer" target="_blank" class="btn btn-sm btn-gold">Inquire Price</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="ghee" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <span class="product-badge">Danedar</span>
+                            <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=600&q=80" alt="Pure Desi Ghee" loading="lazy">
+                        </div>
+                        <div class="product-body">
+                            <h3 class="product-title">Pure Desi Ghee</h3>
+                            <p class="product-desc">Aromatic, traditional granular ghee prepared using slow clarify process. Unmatched rich aroma and taste.</p>
+                            <div class="product-footer pt-3">
+                                <span class="fw-bold text-success"><i class="fa-solid fa-circle-check"></i> 100% Organic</span>
+                                <a href="https://wa.me/919642929942?text=Hi%20Muneer%20Dairy,%20I%20want%20to%20buy%20Pure%20Desi%20Ghee" target="_blank" class="btn btn-sm btn-gold">Inquire Price</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="sweets" data-aos="fade-up">
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <span class="product-badge">Authentic</span>
+                            <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=600&q=80" alt="Pure Khowa" loading="lazy">
+                        </div>
+                        <div class="product-body">
+                            <h3 class="product-title">Pure Khowa (Mawa)</h3>
+                            <p class="product-desc">Freshly reduced solid milk mawa, perfect for preparing homemade Gulab Jamun, Pedha, and sweet dishes.</p>
+                            <div class="product-footer pt-3">
+                                <span class="fw-bold text-success"><i class="fa-solid fa-circle-check"></i> Zero Preservatives</span>
+                                <a href="https://wa.me/919642929942?text=Hi%20Muneer%20Dairy,%20I%20want%20to%20buy%20Pure%20Khowa" target="_blank" class="btn btn-sm btn-gold">Inquire Price</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="sweets" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <span class="product-badge">Heavy Cream</span>
+                            <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80" alt="Fresh Cream" loading="lazy">
+                        </div>
+                        <div class="product-body">
+                            <h3 class="product-title">Fresh Dairy Cream</h3>
+                            <p class="product-desc">Thick, velvety milk cream for baking, desserts, fruit salads, and rich gravy preparations.</p>
+                            <div class="product-footer pt-3">
+                                <span class="fw-bold text-success"><i class="fa-solid fa-circle-check"></i> High Fat</span>
+                                <a href="https://wa.me/919642929942?text=Hi%20Muneer%20Dairy,%20I%20want%20to%20buy%20Fresh%20Cream" target="_blank" class="btn btn-sm btn-gold">Inquire Price</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="sweets" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <span class="product-badge">Multiple Flavors</span>
+                            <img src="https://images.unsplash.com/photo-1560008511-11c63416e52d?auto=format&fit=crop&w=600&q=80" alt="Ice Cream" loading="lazy">
+                        </div>
+                        <div class="product-body">
+                            <h3 class="product-title">Premium Ice Creams</h3>
+                            <p class="product-desc">Delectable ice creams and kulfis in classic Vanilla, Chocolate, Butterscotch, and Mango flavors.</p>
+                            <div class="product-footer pt-3">
+                                <span class="fw-bold text-success"><i class="fa-solid fa-circle-check"></i> Cool Treat</span>
+                                <a href="https://wa.me/919642929942?text=Hi%20Muneer%20Dairy,%20I%20want%20to%20buy%20Ice%20Cream" target="_blank" class="btn btn-sm btn-gold">Inquire Price</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 10 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="extras" data-aos="fade-up">
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <span class="product-badge">Fresh Baked</span>
+                            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" alt="Fresh Bread" loading="lazy">
+                        </div>
+                        <div class="product-body">
+                            <h3 class="product-title">Fresh Bread & Sandwich Loaves</h3>
+                            <p class="product-desc">Soft, fresh daily-baked bread loaves perfect for breakfast toast and quick sandwiches.</p>
+                            <div class="product-footer pt-3">
+                                <span class="fw-bold text-success"><i class="fa-solid fa-circle-check"></i> Daily Arrival</span>
+                                <a href="https://wa.me/919642929942?text=Hi%20Muneer%20Dairy,%20I%20want%20to%20buy%20Fresh%20Bread" target="_blank" class="btn btn-sm btn-gold">Inquire Price</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 11 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="extras" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <span class="product-badge">Select Quality</span>
+                            <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80" alt="Dry Fruits" loading="lazy">
+                        </div>
+                        <div class="product-body">
+                            <h3 class="product-title">Premium Dry Fruits</h3>
+                            <p class="product-desc">Handpicked Almonds, Cashews, Pistachios, and Raisins for healthy snacking and dessert garnishing.</p>
+                            <div class="product-footer pt-3">
+                                <span class="fw-bold text-success"><i class="fa-solid fa-circle-check"></i> Nutritious</span>
+                                <a href="https://wa.me/919642929942?text=Hi%20Muneer%20Dairy,%20I%20want%20to%20buy%20Dry%20Fruits" target="_blank" class="btn btn-sm btn-gold">Inquire Price</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 12 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="sweets" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <span class="product-badge">Chilled</span>
+                            <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=600&q=80" alt="Milk Shakes" loading="lazy">
+                        </div>
+                        <div class="product-body">
+                            <h3 class="product-title">Thick Milk Shakes</h3>
+                            <p class="product-desc">Delicious chilled milkshakes blended with pure milk, available in Badam, Rose, and Chocolate flavors.</p>
+                            <div class="product-footer pt-3">
+                                <span class="fw-bold text-success"><i class="fa-solid fa-circle-check"></i> Refreshing</span>
+                                <a href="https://wa.me/919642929942?text=Hi%20Muneer%20Dairy,%20I%20want%20to%20buy%20Milk%20Shakes" target="_blank" class="btn btn-sm btn-gold">Inquire Price</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-tag">Store & Products</span>
+                <h2 class="section-title">Visual Gallery</h2>
+                <p class="section-subtitle">Take a glance inside our retail store, fresh dairy batches, and pure product processing.</p>
+            </div>
+
+            <div class="row g-3">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+                    <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?auto=format&fit=crop&w=1200&q=80', 'Fresh Milk Processing')">
+                        <img src="https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?auto=format&fit=crop&w=600&q=80" alt="Fresh Milk Processing" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">
+                                <h5>Fresh Dairy Stock</h5>
+                                <p>Click to enlarge</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=1200&q=80', 'Pure Ghee Batch')">
+                        <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=600&q=80" alt="Pure Ghee Batch" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">
+                                <h5>Pure Golden Ghee</h5>
+                                <p>Click to enlarge</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=1200&q=80', 'Fresh Paneer Preparation')">
+                        <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=600&q=80" alt="Fresh Paneer Preparation" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">
+                                <h5>Fresh Soft Paneer</h5>
+                                <p>Click to enlarge</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1200&q=80', 'Fresh Thick Curd')">
+                        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80" alt="Fresh Thick Curd" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">
+                                <h5>Traditional Clay Curd</h5>
+                                <p>Click to enlarge</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1560008511-11c63416e52d?auto=format&fit=crop&w=1200&q=80', 'Delightful Ice Creams')">
+                        <img src="https://images.unsplash.com/photo-1560008511-11c63416e52d?auto=format&fit=crop&w=600&q=80" alt="Delightful Ice Creams" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">
+                                <h5>Ice Creams & Sweets</h5>
+                                <p>Click to enlarge</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80', 'Dry Fruits Collection')">
+                        <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80" alt="Dry Fruits Collection" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">
+                                <h5>Premium Nuts & Dry Fruits</h5>
+                                <p>Click to enlarge</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body p-0 position-relative text-center">
+                    <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <img id="lightboxImage" src="" alt="Enlarged View" class="img-fluid">
+                    <div id="lightboxCaption" class="text-white mt-2 font-serif fs-5"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- REVIEWS SECTION -->
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-tag">Customer Testimonials</span>
+                <h2 class="section-title">Trusted By Families In Sangareddy</h2>
+                <p class="section-subtitle">Read real feedback from our daily retail customers in Royal Colony and Shanti Nagar.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="review-card">
+                        <div class="google-badge">
+                            <i class="fa-brands fa-google"></i> Google Review
+                        </div>
+                        <div class="stars-row">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">"Best buffalo milk in Sangareddy! The fat layer (malai) on the milk is super thick. Cleanliness and behavior at the Bait Ul Iqbal counter are top-notch."</p>
+                        <div class="reviewer-info">
+                            <div class="reviewer-avatar">M</div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Mohammed Rizwan</h6>
+                                <small class="text-muted">Local Resident</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="review-card">
+                        <div class="google-badge">
+                            <i class="fa-brands fa-google"></i> Google Review
+                        </div>
+                        <div class="stars-row">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">"We regularly purchase pure ghee and paneer for our family functions. The aroma of their ghee is pure traditional homemade quality. High recommendations!"</p>
+                        <div class="reviewer-info">
+                            <div class="reviewer-avatar">S</div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Srinivas Reddy</h6>
+                                <small class="text-muted">Sangareddy Resident</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="review-card">
+                        <div class="google-badge">
+                            <i class="fa-brands fa-google"></i> Google Review
+                        </div>
+                        <div class="stars-row">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">"Very polite staff, quick UPI payments, and open early morning at 6:00 AM. Their special Malai Curd is an absolute favorite in our house."</p>
+                        <div class="reviewer-info">
+                            <div class="reviewer-avatar">A</div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Ayesha Sultana</h6>
+                                <small class="text-muted">Royal Colony Resident</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & LOCATION SECTION -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Visit Our Store Or Contact Us</h2>
+                <p class="section-subtitle">We look forward to serving you with daily fresh dairy. Stop by during our morning or evening hours!</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Info & Form Column -->
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="contact-info-card">
+                        <h3 class="fw-bold mb-4 font-serif">Contact Details</h3>
+
+                        <!-- Address -->
+                        <div class="info-item">
+                            <div class="info-item-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Retail Address</h6>
+                                <p class="text-muted mb-0">
+                                    5-8-138/12/7/A, Royals Rd, Royal Colony, Shanti Nagar, Sangareddy, Telangana 502001<br>
+                                    <strong class="text-success"><i class="fa-solid fa-building"></i> Located in Bait Ul Iqbal</strong>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Phone & WhatsApp -->
+                        <div class="info-item">
+                            <div class="info-item-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Phone & WhatsApp</h6>
+                                <p class="text-muted mb-0">
+                                    <a href="tel:+919642929942" class="text-decoration-none text-dark fw-bold">+91 9642929942</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="info-item">
+                            <div class="info-item-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Email Address</h6>
+                                <p class="text-muted mb-0">
+                                    <a href="mailto:mohadamaan9696@gmail.com" class="text-decoration-none text-dark">mohadamaan9696@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Hours -->
+                        <div class="hours-badge mb-4">
+                            <h6 class="fw-bold mb-2 text-dark"><i class="fa-regular fa-clock text-gold me-2"></i> Business Hours</h6>
+                            <div class="d-flex justify-content-between mb-1">
+                                <span><i class="fa-solid fa-sun text-warning me-1"></i> Morning:</span>
+                                <strong>6:00 AM – 1:00 PM</strong>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span><i class="fa-solid fa-moon text-primary me-1"></i> Evening:</span>
+                                <strong>4:00 PM – 11:30 PM</strong>
+                            </div>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <h5 class="fw-bold mb-3 font-serif">Send Us A Message</h5>
+                        <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control form-control-custom" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control form-control-custom" placeholder="Phone Number" required>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control form-control-custom" rows="3" placeholder="Which dairy products are you interested in?" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-gold w-100 justify-content-center">
+                                        <i class="fa-solid fa-paper-plane"></i> Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+                <!-- Google Map Column -->
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="map-container">
+                        <!-- Embedded Responsive Google Maps Iframe -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.972322312!2d78.0844!3d17.6192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDM3JzA5LjEiTiA3OMKwMDUnMDMuOCJF!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Muneer Dairy Farm Location Map">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-custom">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                <!-- Brand Info -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <!-- Footer Small SVG Logo -->
+                        <svg width="40" height="40" viewBox="0 0 200 200">
+                            <circle cx="100" cy="100" r="90" fill="#d4af37"/>
+                            <circle cx="100" cy="100" r="80" fill="#0c633d"/>
+                            <path d="M 75,90 C 70,120 85,145 100,148 C 115,145 130,120 125,90 Z" fill="#ffffff"/>
+                        </svg>
+                        <span class="fs-4 font-serif fw-bold text-white">Muneer Dairy Farm</span>
+                    </div>
+                    <p class="text-white-50 fs-6 mb-3">
+                        Serving Sangareddy with 100% pure, unadulterated Buffalo Milk, Cow Milk, Pure Ghee, and fresh dairy products daily.
+                    </p>
+                    <div>
+                        <a href="https://wa.me/919642929942" class="social-icon-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="tel:+919642929942" class="social-icon-btn" aria-label="Call Us"><i class="fa-solid fa-phone"></i></a>
+                        <a href="mailto:mohadamaan9696@gmail.com" class="social-icon-btn" aria-label="Email Us"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Navigation -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3 font-serif text-gold" style="color: var(--accent-gold);">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#about" class="footer-link">About Us</a></li>
+                        <li><a href="#products" class="footer-link">Product Range</a></li>
+                        <li><a href="#gallery" class="footer-link">Photo Gallery</a></li>
+                        <li><a href="#reviews" class="footer-link">Reviews</a></li>
+                        <li><a href="#contact" class="footer-link">Contact Store</a></li>
+                    </ul>
+                </div>
+
+                <!-- Business Hours Info -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3 font-serif text-gold" style="color: var(--accent-gold);">Store Timings</h5>
+                    <p class="text-white-50 mb-2"><strong class="text-white">Morning Session:</strong><br>6:00 AM – 1:00 PM</p>
+                    <p class="text-white-50 mb-2"><strong class="text-white">Evening Session:</strong><br>4:00 PM – 11:30 PM</p>
+                    <p class="badge bg-warning text-dark mt-2"><i class="fa-solid fa-door-open me-1"></i> Open All 7 Days</p>
+                </div>
+
+                <!-- Payment Methods & Location Note -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3 font-serif text-gold" style="color: var(--accent-gold);">Payments & Note</h5>
+                    <p class="text-white-50 mb-2"><i class="fa-solid fa-qrcode text-gold me-2"></i> UPI Accepted (PhonePe, GPay, Paytm)</p>
+                    <p class="text-white-50 mb-3"><i class="fa-solid fa-money-bill-1-wave text-gold me-2"></i> Cash Accepted</p>
+                    <div class="p-2 border border-secondary rounded text-white-50 small">
+                        <i class="fa-solid fa-circle-info text-warning me-1"></i> <strong>Note:</strong> Delivery is currently unavailable. Counter pickup only.
+                    </div>
+                </div>
+            </div>
+
+            <hr class="border-secondary my-4">
+
+            <div class="row align-items-center">
+                <div class="col-md-8 text-center text-md-start mb-2 mb-md-0">
+                    <p class="small text-white-50 mb-0">
+                        &copy; <span id="yearSpan"></span> Muneer Dairy Farm Retail. All Rights Reserved. | Located in Bait Ul Iqbal, Sangareddy.
+                    </p>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <span class="small text-white-50">Fresh • Pure • Trusted</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING ACTION BUTTONS -->
+    <div class="floating-actions">
+        <!-- Back To Top Button -->
+        <button class="float-btn float-top" id="scrollTopBtn" aria-label="Scroll To Top" onclick="scrollToTop()">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+
+        <!-- Direct Phone Call Button -->
+        <a href="tel:+919642929942" class="float-btn float-phone" aria-label="Call Phone">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+
+        <!-- Floating WhatsApp Button -->
+        <a href="https://wa.me/919642929942?text=Hi%20Muneer%20Dairy%20Farm,%20I%20am%20interested%20in%20your%20products." target="_blank" class="float-btn float-whatsapp" aria-label="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- JAVASCRIPT LIBRARIES -->
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- CUSTOM LOGIC JAVASCRIPT -->
+    <script>
+        // 1. Initialize AOS Animations
+        document.addEventListener('DOMContentLoaded', () => {
+            AOS.init({
+                duration: 800,
+                once: true,
+                offset: 100
+            });
+
+            // Set current dynamic year in footer
+            document.getElementById('yearSpan').textContent = new Date().getFullYear();
+        });
+
+        // 2. Hide Preloader after page load
+        window.addEventListener('load', () => {
+            const preloader = document.getElementById('preloader');
+            preloader.style.opacity = '0';
+            preloader.style.visibility = 'hidden';
+        });
+
+        // 3. Navbar scroll dynamics & Back to top button visibility
+        const navbar = document.getElementById('mainNavbar');
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 60) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+
+            if (window.scrollY > 400) {
+                scrollTopBtn.classList.add('show');
+            } else {
+                scrollTopBtn.classList.remove('show');
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // 4. Dark / Light Theme Toggle Script
+        const themeToggleBtn = document.getElementById('themeToggleBtn');
+        const themeIcon = document.getElementById('themeIcon');
+        const htmlElement = document.documentElement;
+
+        // Check local storage for theme preference
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        setTheme(savedTheme);
+
+        themeToggleBtn.addEventListener('click', () => {
+            const currentTheme = htmlElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            setTheme(newTheme);
+        });
+
+        function setTheme(theme) {
+            htmlElement.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            if (theme === 'dark') {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            } else {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            }
+        }
+
+        // 5. Product Category Filter System
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const productItems = document.querySelectorAll('.product-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Update active button styling
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filterValue = btn.getAttribute('data-filter');
+
+                productItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.style.display = 'block';
+                        setTimeout(() => {
+                            item.style.opacity = '1';
+                            item.style.transform = 'scale(1)';
+                        }, 50);
+                    } else {
+                        item.style.opacity = '0';
+                        item.style.transform = 'scale(0.9)';
+                        setTimeout(() => {
+                            item.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+
+        // 6. Lightbox Handler
+        function openLightbox(imgSrc, captionText) {
+            document.getElementById('lightboxImage').src = imgSrc;
+            document.getElementById('lightboxCaption').textContent = captionText;
+            const lightboxModal = new bootstrap.Modal(document.getElementById('lightboxModal'));
+            lightboxModal.show();
+        }
+
+        // 7. Contact Form Simulation Handler
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            alert('Thank you for reaching out to Muneer Dairy Farm Retail! We will call or WhatsApp you shortly.');
+            event.target.reset();
+        }
+    </script>
 </body>
 </html>
